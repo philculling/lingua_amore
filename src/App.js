@@ -10,7 +10,7 @@ function App() {
   return (
     <Container>
         <Flashcard />
-    </Container>
+    <Container>
   );
 }
 
