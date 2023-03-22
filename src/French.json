@@ -1,0 +1,82 @@
+[
+    {
+      "id": 1,
+      "name": "red",
+      "english": "red",
+      "french": "rouge",
+      "englishwav": "",
+      "frenchwav": ""
+    },
+    {
+        "id": 2,
+        "name": "orange",
+        "english": "orange",
+        "french": "orange",
+        "englishwav": "",
+        "frenchwav": ""
+      },
+      {
+        "id": 3,
+        "name": "yellow",
+        "english": "yellow",
+        "french": "jaune",
+        "englishwav": "",
+        "frenchwav": ""
+        },
+      {
+        "id": 4,
+        "name": "green",
+        "english": "green",
+        "french": "vert",
+        "englishwav": "",
+        "frenchwav": ""
+        },
+      {
+        "id": 5,
+        "name": "blue",
+        "english": "blue",
+        "french": "bleu",
+        "englishwav": "",
+        "frenchwav": ""
+        },
+      {
+        "id": 6,
+        "name": "white",
+        "english": "white",
+        "french": "blanc",
+        "englishwav": "",
+        "frenchwav": ""
+        },
+      {
+        "id": 7,
+        "name": "black",
+        "english": "black",
+        "french": "noir",
+        "englishwav": "",
+        "frenchwav": ""
+        },
+      {
+        "id": 8,
+        "name": "brown",
+        "english": "brown",
+        "french": "brun",
+        "englishwav": "",
+        "frenchwav": ""
+        },
+      {
+        "id": 9,
+        "name": "pink",
+        "english": "pink",
+        "french": "rose",
+        "englishwav": "",
+        "frenchwav": ""
+        },
+      {
+        "id": 10,
+        "name": "grey",
+        "english": "grey",
+        "french": "gris",
+        "englishwav": "",
+        "frenchwav": ""
+        }
+]
