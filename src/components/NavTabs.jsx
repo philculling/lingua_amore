@@ -1,43 +1,50 @@
 import React from "react";
+import { NavLink } from 'react-router-dom';
 
-function NavTabs(props) {
+function NavTabs() {
   return (
     <ul className="nav nav-tabs">
       <li className="nav-item">
-        <a
-          href="#home"
-          onClick={() => props.handlePageChange("Home")}
-          className={props.currentPage === "Home" ? "nav-link active" : "nav-link"}
-        >
-          Home
-        </a>
+      <NavLink
+        to="/"
+        end
+        className={({ isActive }) =>
+          isActive ? 'nav-link active' : 'nav-link'
+        }
+      >
+        Home
+        </NavLink>
       </li>
       <li className="nav-item">
-        <a
-          href="#French"
-          onClick={() => props.handlePageChange("French")}
-          className={props.currentPage === "French" ? "nav-link active" : "nav-link"}
+        <NavLink
+          to="french"
+          className={({ isActive }) =>
+            isActive ? 'nav-link active' : 'nav-link'
+          }
         >
           French
-        </a>
+        </NavLink>
       </li>
       <li className="nav-item">
-        <a
-          href="#Spanish"
-          onClick={() => props.handlePageChange("Spanish")}
-          className={props.currentPage === "Spanish" ? "nav-link active" : "nav-link"}
+        <NavLink
+          to="spanish"
+          end
+          className={({ isActive }) =>
+            isActive ? 'nav-link active' : 'nav-link'
+          }
         >
           Spanish
-        </a>
+        </NavLink>
       </li>
       <li className="nav-item">
-        <a
-          href="#Italian"
-          onClick={() => props.handlePageChange("Italian")}
-          className={props.currentPage === "Italian" ? "nav-link active" : "nav-link"}
+        <NavLink
+          to="italian"
+          className={({ isActive }) =>
+            isActive ? 'nav-link active' : 'nav-link'
+          }
         >
           Italian
-        </a>
+        </NavLink>
       </li>
     </ul>
   );
