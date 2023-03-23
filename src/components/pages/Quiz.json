@@ -1,9 +1,9 @@
 {
     "quizTitle": "French colours",
-    "nrOfQuestions": "1",
+    "nrOfQuestions": "10",
     "questions": [
       {
-        "question": "What is the French word for red?",
+        "question": "What is the French for red?",
         "questionType": "text",
         "answerSelectionType": "single",
         "answers": [
@@ -15,7 +15,142 @@
         "correctAnswer": "2",
         "messageForCorrectAnswer": "Correct answer. Good job.",
         "messageForIncorrectAnswer": "Incorrect answer. Please try again.",
-        "point": "20"
+        "point": "1"
+      },
+      {
+        "question": "What is the French for grey?",
+        "questionType": "text",
+        "answerSelectionType": "single",
+        "answers": [
+          "rose",
+          "vert",
+          "gris",
+          "jaune"
+        ],
+        "correctAnswer": "3",
+        "messageForCorrectAnswer": "Correct answer. Good job.",
+        "messageForIncorrectAnswer": "Incorrect answer. Please try again.",
+        "point": "1"
+      },
+      {
+        "question": "What is the French for white?",
+        "questionType": "text",
+        "answerSelectionType": "single",
+        "answers": [
+          "blanc",
+          "brun",
+          "noir",
+          "rouge"
+        ],
+        "correctAnswer": "1",
+        "messageForCorrectAnswer": "Correct answer. Good job.",
+        "messageForIncorrectAnswer": "Incorrect answer. Please try again.",
+        "point": "1"
+      },
+      {
+        "question": "What is the French for orange?",
+        "questionType": "text",
+        "answerSelectionType": "single",
+        "answers": [
+          "rose",
+          "jaune",
+          "vert",
+          "orange"
+        ],
+        "correctAnswer": "4",
+        "messageForCorrectAnswer": "Correct answer. Good job.",
+        "messageForIncorrectAnswer": "Incorrect answer. Please try again.",
+        "point": "1"
+      },
+      {
+        "question": "What is the French for yellow?",
+        "questionType": "text",
+        "answerSelectionType": "single",
+        "answers": [
+          "jaune",
+          "rouge",
+          "brun",
+          "rose"
+        ],
+        "correctAnswer": "1",
+        "messageForCorrectAnswer": "Correct answer. Good job.",
+        "messageForIncorrectAnswer": "Incorrect answer. Please try again.",
+        "point": "1"
+      },
+      {
+        "question": "What is the French for blue?",
+        "questionType": "text",
+        "answerSelectionType": "single",
+        "answers": [
+          "gris",
+          "bleu",
+          "brun",
+          "noir"
+        ],
+        "correctAnswer": "2",
+        "messageForCorrectAnswer": "Correct answer. Good job.",
+        "messageForIncorrectAnswer": "Incorrect answer. Please try again.",
+        "point": "1"
+      },
+      {
+        "question": "What is the French for green?",
+        "questionType": "text",
+        "answerSelectionType": "single",
+        "answers": [
+          "blanc",
+          "rouge",
+          "gris",
+          "vert"
+        ],
+        "correctAnswer": "4",
+        "messageForCorrectAnswer": "Correct answer. Good job.",
+        "messageForIncorrectAnswer": "Incorrect answer. Please try again.",
+        "point": "1"
+      },
+      {
+        "question": "What is the French for pink?",
+        "questionType": "text",
+        "answerSelectionType": "single",
+        "answers": [
+          "vert",
+          "noir",
+          "rose",
+          "jaune"
+        ],
+        "correctAnswer": "3",
+        "messageForCorrectAnswer": "Correct answer. Good job.",
+        "messageForIncorrectAnswer": "Incorrect answer. Please try again.",
+        "point": "1"
+      },
+      {
+        "question": "What is the French for brown?",
+        "questionType": "text",
+        "answerSelectionType": "single",
+        "answers": [
+          "brun",
+          "rose",
+          "jaune",
+          "bleu"
+        ],
+        "correctAnswer": "1",
+        "messageForCorrectAnswer": "Correct answer. Good job.",
+        "messageForIncorrectAnswer": "Incorrect answer. Please try again.",
+        "point": "1"
+      },
+      {
+        "question": "What is the French for black?",
+        "questionType": "text",
+        "answerSelectionType": "single",
+        "answers": [
+          "blanc",
+          "rouge",
+          "noir",
+          "vert"
+        ],
+        "correctAnswer": "3",
+        "messageForCorrectAnswer": "Correct answer. Good job.",
+        "messageForIncorrectAnswer": "Incorrect answer. Please try again.",
+        "point": "1"
       }
     ]
   }
