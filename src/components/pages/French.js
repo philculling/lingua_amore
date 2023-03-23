@@ -1,4 +1,5 @@
 import React from "react";
+import { quiz } from './Quiz';
 
 function French() {
   return (
