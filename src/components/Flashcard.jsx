@@ -9,24 +9,24 @@ import Typography from '@mui/material/Typography';
 
 function Flashcard() {
   return (
-    <Box sx={{justifyContent: 'center', alignItems: 'center'  }}>
-        <Card sx={{ maxWidth: '50%'}}>
-        <CardContent>
-            <Typography variant="h5" component="div">
-            benevolent
-            </Typography>
-            <Typography sx={{ mb: 1.5 }} color="text.secondary">
-            adjective
-            </Typography>
-            <Typography variant="body2">
-            well meaning and kindly.
-            </Typography>
-        </CardContent>
-        <CardActions>
-            <Button size="small">Answer</Button>
-        </CardActions>
+    <Box sx={{display: "flex", justifyContent: "center", alignItems: "center"}}>
+        <Card sx={{ margin: 5, flexGrow: 1, bgcolor: "#95818d", maxWidth: "sm", maxHeight: "100%" }}>
+          <CardContent>
+              <Typography variant="h5" component="div">
+              benevolent
+              </Typography>
+              <Typography sx={{ mb: 1.5 }} color="text.secondary">
+              adjective
+              </Typography>
+              <Typography variant="body2">
+              well meaning and kindly.
+              </Typography>
+          </CardContent>
+          <CardActions>
+              <Button size="small">Answer</Button>
+          </CardActions>
         </Card>
-    </Box>
+      </Box>
   )
 }
 
