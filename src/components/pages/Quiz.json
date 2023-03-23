@@ -1,0 +1,21 @@
+{
+    "quizTitle": "French colours",
+    "nrOfQuestions": "1",
+    "questions": [
+      {
+        "question": "What is the French word for red?",
+        "questionType": "text",
+        "answerSelectionType": "single",
+        "answers": [
+          "gris",
+          "rouge",
+          "vert",
+          "jaune"
+        ],
+        "correctAnswer": "2",
+        "messageForCorrectAnswer": "Correct answer. Good job.",
+        "messageForIncorrectAnswer": "Incorrect answer. Please try again.",
+        "point": "20"
+      }
+    ]
+  }
