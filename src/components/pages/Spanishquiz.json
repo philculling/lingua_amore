@@ -1,0 +1,21 @@
+{
+    "quizTitle": "Spanish colours",
+    "nrOfQuestions": "1",
+    "questions": [
+      {
+        "question": "What is the Spanish for yellow?",
+        "questionType": "text",
+        "answerSelectionType": "single",
+        "answers": [
+          "amarillo",
+          "azul",
+          "rojo",
+          "negro"
+        ],
+        "correctAnswer": "1",
+        "messageForCorrectAnswer": "Correct answer. Good job.",
+        "messageForIncorrectAnswer": "Incorrect answer. Please try again.",
+        "point": "1"
+      }
+    ]
+  }

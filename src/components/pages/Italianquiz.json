@@ -1,0 +1,21 @@
+{
+    "quizTitle": "Italian colours",
+    "nrOfQuestions": "1",
+    "questions": [
+      {
+        "question": "What is the Italian for yellow?",
+        "questionType": "text",
+        "answerSelectionType": "single",
+        "answers": [
+          "marrone",
+          "rosso",
+          "giallo",
+          "bianco"
+        ],
+        "correctAnswer": "3",
+        "messageForCorrectAnswer": "Correct answer. Good job.",
+        "messageForIncorrectAnswer": "Incorrect answer. Please try again.",
+        "point": "1"
+      }
+    ]
+  }
