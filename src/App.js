@@ -27,7 +27,6 @@ function App() {
             <Route path="italian" element={<Italian />} />
           </Routes>
     </Router>
-      <Flashcard />
     </Container>
 
 
