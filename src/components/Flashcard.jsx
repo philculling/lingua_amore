@@ -20,6 +20,9 @@ function Flashcard(props) {
               </Typography>
               <Typography variant="body2">
               well meaning and kindly.
+              <br></br>
+              <br></br>
+              <a href={props.frenchwav}>Listen</a>
               </Typography>
           </CardContent>
           <CardActions>
