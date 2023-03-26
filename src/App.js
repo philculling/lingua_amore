@@ -12,8 +12,6 @@ import '@fontsource/roboto/500.css';
 import '@fontsource/roboto/700.css';
 import { Container } from '@mui/material';
 
-
-
 function App() {
   return (
     <Router>

@@ -2,9 +2,8 @@
     {
       "id": 1,
       "category": "colours",
-      "name": "red",
-      "english": "red",
-      "french": "rouge",
+      "front": "rouge",
+      "back": "red",
       "englishwav": "",
       "frenchwav": "https://drive.google.com/file/d/17K6lSsUtxrap3gTsmA-V7uz1quYWQmIt/view?usp=sharing",
       "picture": ""
@@ -12,81 +11,72 @@
     {
         "id": 2,
         "category": "colours",
-        "name": "orange",
-        "english": "orange",
-        "french": "orange",
+        "back": "orange",
+        "front": "orange",
         "englishwav": "",
         "frenchwav": ""
       },
       {
         "id": 3,
         "category": "colours",
-        "name": "yellow",
-        "english": "yellow",
-        "french": "jaune",
+        "back": "yellow",
+        "front": "jaune",
         "englishwav": "",
         "frenchwav": ""
         },
       {
         "id": 4,
         "category": "colours",
-        "name": "green",
-        "english": "green",
-        "french": "vert",
+        "back": "green",
+        "front": "vert",
         "englishwav": "",
         "frenchwav": ""
         },
       {
         "id": 5,
         "category": "colours",
-        "name": "blue",
-        "english": "blue",
-        "french": "bleu",
+        "back": "blue",
+        "front": "bleu",
         "englishwav": "",
         "frenchwav": ""
         },
       {
         "id": 6,
         "category": "colours",
-        "name": "white",
-        "english": "white",
-        "french": "blanc",
+        "back": "white",
+        "front": "blanc",
         "englishwav": "",
         "frenchwav": ""
         },
       {
         "id": 7,
         "category": "colours",
-        "name": "black",
-        "english": "black",
-        "french": "noir",
+        "back": "black",
+        "front": "noir",
         "englishwav": "",
         "frenchwav": ""
         },
       {
         "id": 8,
         "category": "colours",
-        "name": "brown",
-        "english": "brown",
-        "french": "brun",
+        "back": "brown",
+        "front": "brun",
         "englishwav": "",
         "frenchwav": ""
         },
       {
         "id": 9,
         "category": "colours",
-        "name": "pink",
-        "english": "pink",
-        "french": "rose",
+        "back": "pink",
+        "front": "rose",
         "englishwav": "",
         "frenchwav": ""
         },
       {
         "id": 10,
         "category": "colours",
-        "name": "grey",
-        "english": "grey",
-        "french": "gris",
+        "back": "grey",
+        "front": "gris",
         "englishwav": "",
         "frenchwav": ""
         }
