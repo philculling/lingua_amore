@@ -1,19 +1,11 @@
 import React, { useState, useEffect } from "react";
-import Flashcard from "../Flashcard";
 import frenchData from '../French.json'
 import Quiz from 'react-quiz-component';
 import quiz from './Spanishquiz.json';
+import { FlashcardArray } from "react-quizlet-flashcard";
+
 
 function Spanish() {
-  const [currentIndex, setCurrentIndex] = useState(0);
-
-  function handleNextItem() {
-    setCurrentIndex((currentIndex + 1) % frenchData.length);
-  }
-
-
-  const currentItem = frenchData[currentIndex];
-
   return (
     <div>
       <h1>Spanish</h1>
@@ -22,17 +14,7 @@ function Spanish() {
       <p>
         Colores
       </p>
-        <nav>
-          <button onClick={handleNextItem}>Next</button>
-          <button>Answer</button>
-        </nav>
-        {
-            <Flashcard
-              id={currentItem.id}
-              key={currentItem.id}
-              name={currentItem.french}
-            />
-        }
+        <FlashcardArray cards={frenchData} />
     </div>
   );
 }

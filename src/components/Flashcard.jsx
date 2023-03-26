@@ -12,18 +12,12 @@ function Flashcard(props) {
     <Box sx={{display: "flex", justifyContent: "center", alignItems: "center"}}>
         <Card sx={{ margin: 5, flexGrow: 1, bgcolor: "#95818d", maxWidth: "sm", maxHeight: "100%" }}>
           <CardContent>
-              <Typography variant="h5" component="div">
+              <Typography align="center" variant="h5" component="div">
               {props.name}
-              </Typography>
-              <Typography sx={{ mb: 1.5 }} color="text.secondary">
-              adjective
-              </Typography>
-              <Typography variant="body2">
-              well meaning and kindly.
               </Typography>
           </CardContent>
           <CardActions>
-              <Button size="small">Answer</Button>
+              <Button variant="contained" size="small">Answer</Button>
           </CardActions>
         </Card>
       </Box>
