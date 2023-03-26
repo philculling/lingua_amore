@@ -13,8 +13,6 @@ import '@fontsource/roboto/700.css';
 import { Container } from '@mui/material';
 import Flashcard from './components/Flashcard';
 
-
-
 function App() {
   return (
   <Container>
