@@ -6,6 +6,14 @@ import { FlashcardArray } from "react-quizlet-flashcard";
 
 
 function Spanish() {
+  const [currentIndex, setCurrentIndex] = useState(0);
+
+  function handleNextItem() {
+    setCurrentIndex((currentIndex + 1) % frenchData.length);
+  }
+  
+  const currentItem = frenchData[currentIndex];
+
   return (
     <div>
       <h1>Spanish</h1>
@@ -15,6 +23,19 @@ function Spanish() {
         Colores
       </p>
         <FlashcardArray cards={frenchData} />
+        <nav>
+          <button onClick={handleNextItem}>Next</button>
+          <button>Answer</button>
+        </nav>
+        {
+            <Flashcard
+              id={currentItem.id}
+              key={currentItem.id}
+              name={currentItem.french}
+              frenchwav={currentItem.frenchwav}
+              picture={currentItem.picture}
+            />
+        }
     </div>
   );
 }
