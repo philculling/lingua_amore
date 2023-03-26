@@ -10,8 +10,7 @@ function Spanish() {
   function handleNextItem() {
     setCurrentIndex((currentIndex + 1) % frenchData.length);
   }
-
-
+  
   const currentItem = frenchData[currentIndex];
 
   return (
@@ -31,6 +30,8 @@ function Spanish() {
               id={currentItem.id}
               key={currentItem.id}
               name={currentItem.french}
+              frenchwav={currentItem.frenchwav}
+              picture={currentItem.picture}
             />
         }
     </div>

@@ -6,8 +6,12 @@ import CardContent from '@mui/material/CardContent';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 
-
 function Flashcard(props) {
+  
+  function play() {
+    new Audio(props.frenchwav).play()
+  }
+
   return (
     <Box sx={{display: "flex", justifyContent: "center", alignItems: "center"}}>
         <Card sx={{ margin: 5, flexGrow: 1, bgcolor: "#95818d", maxWidth: "sm", maxHeight: "100%" }}>
@@ -15,6 +19,7 @@ function Flashcard(props) {
               <Typography variant="h5" component="div">
               {props.name}
               </Typography>
+              <img src={props.picture}></img>
               <Typography sx={{ mb: 1.5 }} color="text.secondary">
               adjective
               </Typography>
@@ -22,7 +27,8 @@ function Flashcard(props) {
               well meaning and kindly.
               <br></br>
               <br></br>
-              <a href={props.frenchwav}>Listen</a>
+              <Button size="small" onClick={play}>Play Sound</Button>
+              {/* <a href={props.frenchwav}>Listen</a> */}
               </Typography>
           </CardContent>
           <CardActions>
