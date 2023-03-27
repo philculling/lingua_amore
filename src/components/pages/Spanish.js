@@ -1,8 +1,9 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import frenchData from '../French.json'
 import Quiz from 'react-quiz-component';
 import quiz from './Spanishquiz.json';
 import { FlashcardArray } from "react-quizlet-flashcard";
+import Flashcard from '../Flashcard';
 
 
 function Spanish() {
