@@ -5,11 +5,12 @@ import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
+import azul from '../sounds/azul.mp3';
 
 function Flashcard(props) {
   
   function play() {
-    new Audio(props.frenchwav).play()
+    new Audio(azul).play()
   }
 
   return (
@@ -28,7 +29,6 @@ function Flashcard(props) {
               <br></br>
               <br></br>
               <Button size="small" onClick={play}>Play Sound</Button>
-              {/* <a href={props.frenchwav}>Listen</a> */}
               </Typography>
           </CardContent>
           <CardActions>
