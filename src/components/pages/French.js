@@ -1,12 +1,14 @@
 import React from "react";
 import Quiz from 'react-quiz-component';
 import quiz from './Quiz';
+import PageTitle from "../PageTitle";
+import PageSubTitle from "../PageSubTitle";
 
 function French() {
   return (
     <div>
-      <h1>French</h1>
-      <h2>French Quiz</h2>
+      <PageTitle title="French"/>
+      <PageSubTitle subtitle="French Quiz"/>
       <Quiz quiz={quiz}/>
       <p>
         Colours

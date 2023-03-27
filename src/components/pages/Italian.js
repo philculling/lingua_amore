@@ -1,12 +1,14 @@
 import React from "react";
 import Quiz from 'react-quiz-component';
 import quiz from './Italianquiz.json';
+import PageTitle from "../PageTitle";
+import PageSubTitle from "../PageSubTitle";
 
 function Italian() {
   return (
     <div>
-      <h1>Italian</h1>
-      <h2>Italian Quiz</h2>
+    <PageTitle title="Italian"/>
+      <PageSubTitle subtitle="Italian Quiz"/>
       <Quiz quiz={quiz}/>
       <p>
         Colores
