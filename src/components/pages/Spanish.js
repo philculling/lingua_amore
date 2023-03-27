@@ -2,8 +2,9 @@ import React, { useState, useEffect } from "react";
 import frenchData from '../French.json'
 import Quiz from 'react-quiz-component';
 import quiz from './Spanishquiz.json';
-import { FlashcardArray } from "react-quizlet-flashcard";
-
+import { Flashcard, FlashcardArray } from "react-quizlet-flashcard";
+import azul from '../../sounds/azul.mp3';
+import correct from '../../sounds/correct.wav';
 
 function Spanish() {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -12,6 +13,14 @@ function Spanish() {
     setCurrentIndex((currentIndex + 1) % frenchData.length);
   }
   const currentItem = frenchData[currentIndex];
+
+  function play() {
+    if (currentIndex === 0) {
+    new Audio(azul).play()}
+    else if (currentIndex === 1) {
+      new Audio(correct).play()
+    }
+  }
 
   return (
     <div>
@@ -35,6 +44,7 @@ function Spanish() {
               picture={currentItem.picture}
             />
         }
+        <button onClick={play}>Play Spanish word</button>
     </div>
   );
 }
