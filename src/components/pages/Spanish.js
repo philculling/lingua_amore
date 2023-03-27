@@ -3,7 +3,14 @@ import frenchData from '../French.json'
 import Quiz from 'react-quiz-component';
 import quiz from './Spanishquiz.json';
 import { Flashcard, FlashcardArray } from "react-quizlet-flashcard";
-import azul from '../../sounds/azul.mp3';
+import Rouge from '../../sounds/Rouge.mp3';
+import Gris from '../../sounds/Gris.mp3';
+import Jaune from '../../sounds/Jaune.mp3';
+import Noir from '../../sounds/Noir.mp3';
+import Orange from '../../sounds/Orange.mp3';
+import Rose from '../../sounds/Rose.mp3';
+import Vert from '../../sounds/Vert.mp3';
+
 import correct from '../../sounds/correct.wav';
 
 function Spanish() {
@@ -16,11 +23,27 @@ function Spanish() {
 
   function play() {
     if (currentIndex === 0) {
-    new Audio(azul).play()}
+    new Audio(Rouge).play()}
     else if (currentIndex === 1) {
-      new Audio(correct).play()
+      new Audio(Orange).play()
     }
-  }
+    else if (currentIndex === 2) {
+      new Audio(Jaune).play()
+    }else if (currentIndex === 3) {
+      new Audio(Vert).play()
+    }else if (currentIndex === 4) {
+      new Audio(correct).play()
+    }else if (currentIndex === 5) {
+      new Audio(correct).play()
+    }else if (currentIndex === 6) {
+      new Audio(Noir).play()
+    }else if (currentIndex === 7) {
+      new Audio(correct).play()
+    }else if (currentIndex === 8) {
+      new Audio(Rose).play()
+    }else 
+      new Audio(Gris).play()
+    }
 
   return (
     <div>
