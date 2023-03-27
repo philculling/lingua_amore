@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from "react";
-import Flashcard from "../Flashcard";
 import frenchData from '../French.json'
 import Quiz from 'react-quiz-component';
 import quiz from './Spanishquiz.json';
+import { FlashcardArray } from "react-quizlet-flashcard";
+
 
 function Spanish() {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -20,6 +21,7 @@ function Spanish() {
       <p>
         Colores
       </p>
+        <FlashcardArray cards={frenchData} />
         <nav>
           <button onClick={handleNextItem}>Next</button>
           <button>Answer</button>

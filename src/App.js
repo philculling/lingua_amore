@@ -15,9 +15,10 @@ import Flashcard from './components/Flashcard';
 
 function App() {
   return (
-  <Container>
     <Router>
       <NavTabs />
+        <Container>
+        </Container>
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="french" element={<French />} />
@@ -25,9 +26,6 @@ function App() {
             <Route path="italian" element={<Italian />} />
           </Routes>
     </Router>
-    </Container>
-
-
   );
 }
 
