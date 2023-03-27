@@ -11,7 +11,6 @@ function Spanish() {
   function handleNextItem() {
     setCurrentIndex((currentIndex + 1) % frenchData.length);
   }
-  
   const currentItem = frenchData[currentIndex];
 
   return (
