@@ -20,6 +20,8 @@ import Brun from '../../sounds/Brun.mp3';
 function French() {
 
   const [showFlash, setShowFlash] = useState(true);
+  const [currentCard, setCurrentCard] = useState(1);
+
 
   const handleFlashClick = () => {
     setShowFlash(true);
@@ -29,9 +31,6 @@ function French() {
     setShowFlash(false);
   };
 
-  const [currentCard, setCurrentCard] = useState(1);
-
-  console.log(currentCard);
 
   function play() {
     if (currentCard === 1) {
@@ -56,6 +55,11 @@ function French() {
       new Audio(Gris).play()
     }
 
+    const handleCardChange = (index) => {
+      setCurrentCard(index);
+    };
+
+
   return (
     <div>
       <PageTitle title="French"/>
@@ -70,8 +74,9 @@ function French() {
         
         {showFlash ? (
           <Box>
-          <FlashcardArray cards={frenchData}
-          onCardChange={(id, index) => {setCurrentCard(index)}}
+          <FlashcardArray 
+            cards={frenchData}
+            onCardChange={handleCardChange}
           />
           </Box>
         ) : (
