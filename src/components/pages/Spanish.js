@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import frenchData from '../French.json'
 import Quiz from 'react-quiz-component';
 import quiz from './Spanishquiz.json';
@@ -10,9 +10,18 @@ import Noir from '../../sounds/Noir.mp3';
 import Orange from '../../sounds/Orange.mp3';
 import Rose from '../../sounds/Rose.mp3';
 import Vert from '../../sounds/Vert.mp3';
+
 import Bleu from '../../sounds/Bleu.mp3';
 import Blanc from '../../sounds/Blanc.mp3';
 import Brun from '../../sounds/Brun.mp3';
+
+
+import correct from '../../sounds/correct.wav';
+import PageTitle from "../PageTitle";
+import PageSubTitle from "../PageSubTitle";
+import { FlashcardArray } from "react-quizlet-flashcard";
+import Flashcard from '../Flashcard';
+
 
 function Spanish() {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -47,8 +56,8 @@ function Spanish() {
 
   return (
     <div>
-      <h1>Spanish</h1>
-      <h2>Spanish Quiz</h2>
+      <PageTitle title="Spanish"/>
+      <PageSubTitle subtitle="Spanish Quiz"/>
       <Quiz quiz={quiz}/>
       <p>
         Colores
