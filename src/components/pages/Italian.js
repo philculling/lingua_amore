@@ -9,8 +9,6 @@ import { FlashcardArray } from "react-quizlet-flashcard";
 import frenchData from '../French.json'
 import { Box, Button, Container } from "@mui/material";
 
-
-
 function Italian() {
 
   const [showFlash, setShowFlash] = useState(true);
@@ -52,6 +50,7 @@ function Italian() {
           <Button onClick={() => handleCategoryClick('colours')}>Colours</Button>
           <Button onClick={() => handleCategoryClick('nature')}>Nature</Button>
           <Button onClick={() => handleCategoryClick('household_items')}>Household Items</Button>
+
         </Box>
         {showFlash ? (
           <Box>
@@ -65,7 +64,6 @@ function Italian() {
           )}
       </Container>
       </Container>
-
   );
 }
 
