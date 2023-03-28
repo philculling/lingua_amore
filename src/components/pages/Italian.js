@@ -9,8 +9,6 @@ import { FlashcardArray } from "react-quizlet-flashcard";
 import frenchData from '../French.json'
 import { Box, Button, Container } from "@mui/material";
 
-
-
 function Italian() {
 
   const [showFlash, setShowFlash] = useState(true);
@@ -32,7 +30,7 @@ function Italian() {
       <p>
         Colores
       </p>
-    </div>
+    
 
       <Container sx={{display: "flex", flexDirection: 'column', justifyContent: "center", alignItems: "center"}}>
         <h1>Italian</h1>
@@ -51,6 +49,7 @@ function Italian() {
           </Box>
         )}
       </Container>
+      </div>
   );
 }
 
