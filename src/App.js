@@ -10,24 +10,37 @@ import '@fontsource/roboto/300.css';
 import '@fontsource/roboto/400.css';
 import '@fontsource/roboto/500.css';
 import '@fontsource/roboto/700.css';
+import { createTheme, ThemeProvider } from '@mui/material';
 import { Container } from '@mui/material';
+import Flashcard from './components/Flashcard';
 
+const theme = createTheme({
+  palette: {
+    primary: {
+      main: '#264039',
+    },
+    secondary: {
+      main: '#d487c1',
+      // dark: will be calculated from palette.secondary.main,
+    },
+  },
+});
 
 
 
 function App() {
   return (
-    <Router>
-      <NavTabs />
-        <Container>
-        </Container>
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="french" element={<French />} />
-            <Route path="spanish" element={<Spanish />} />
-            <Route path="italian" element={<Italian />} />
-          </Routes>
-    </Router>
+    <ThemeProvider theme={theme}>
+      <Router>
+        <NavTabs />
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="french" element={<French />} />
+              <Route path="spanish" element={<Spanish />} />
+              <Route path="italian" element={<Italian />} />
+            </Routes>
+      </Router>
+    </ThemeProvider>
   );
 }
 

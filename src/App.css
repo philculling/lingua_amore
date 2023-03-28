@@ -1,3 +1,8 @@
 body {
-  background: #fff;
+  background: #6c9a8b;
+  color: white;
+}
+
+.MUIButtonBase-root {
+  margin: 100px;
 }
