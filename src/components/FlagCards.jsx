@@ -10,75 +10,62 @@ import { Link } from 'react-router-dom';
 
 function FlagCards() {
   return (
-    <div>
       <Grid sx={{alignContent: "flex-end", paddingLeft: 60, paddingTop: 0}}
-      container spacing={2} rowGap={1}>
-
+      container spacing={2} rowGap={2}>
+        
         <Grid item xs={12} md={6} lg={4}>
-          <Card sx={{ maxWidth: 300 }}>
-      <CardActionArea>
-        <CardMedia
-          component="img"
-          height="250"
-          image="https://media.istockphoto.com/id/1385983466/photo/glass-heart-flag-france.jpg?s=612x612&w=0&k=20&c=hVeHUr5Hr7Fn4Bu2aEM6PqjVNrLbYXZysHd29Ge3Ru0="
-          alt="french flag"
-          title="Français"
-        />
-         <CardActions>
-          <Button size="large">
-            <Link to="/french">
-        French
-            </Link>
-          </Button>
-        </CardActions>
-      </CardActionArea>
-          </Card>
+          <Link to="/french">
+            <Card sx={{ maxWidth: 300 }}>
+              <CardActionArea>
+                <CardMedia
+                component="img"
+                height="250"
+                image="https://media.istockphoto.com/id/1385983466/photo/glass-heart-flag-france.jpg?s=612x612&w=0&k=20&c=hVeHUr5Hr7Fn4Bu2aEM6PqjVNrLbYXZysHd29Ge3Ru0="
+                alt="french flag"
+                title="Français"
+                />
+              </CardActionArea>
+             </Card>
+          </Link>
         </Grid>
+       
+         
 
         <Grid item xs={12} md={6} lg={4}>
           <Card sx={{ maxWidth: 300 }}>
-      <CardActionArea>
-        <CardMedia
-          component="img"
-          height="250"
-          image="https://media.istockphoto.com/id/1386520262/photo/glass-heart-flag-spain.jpg?s=612x612&w=0&k=20&c=eTWkEIRZn8ysCQhTV-f3b0HDN23A6RQB4u6n0kFVJpw="
-          alt="spanish flag"
-          title="Español"
-          />
-        <CardActions>
-          <Button size="large">
             <Link to="/spanish">
-        Spanish
+              <CardActionArea>
+                <CardMedia
+                component="img"
+                height="250"
+                image="https://media.istockphoto.com/id/1386520262/photo/glass-heart-flag-spain.jpg?s=612x612&w=0&k=20&c=eTWkEIRZn8ysCQhTV-f3b0HDN23A6RQB4u6n0kFVJpw="
+                alt="spanish flag"
+                title="Español"
+                />
+              </CardActionArea>
             </Link>
-          </Button>
-        </CardActions>
-      </CardActionArea>
           </Card>
         </Grid>
 
         <Grid item xs={12} md={6} lg={4}>
           <Card sx={{ maxWidth: 300 }}>
-      <CardActionArea>
-        <CardMedia
-          component="img"
-          height="250"
-          image="https://media.istockphoto.com/id/1385983467/photo/glass-heart-flag-italy.jpg?s=612x612&w=0&k=20&c=inWMCX9DbQmdic1FONCVawce86JRpGb8KCBgSSM6awo="
-          alt="italian flag"
-          title="Italiano"
-        />
-        <CardActions>
-          <Button size="large">
             <Link to="/italian">
-        Italian
-            </Link>
-          </Button>
-        </CardActions>
-      </CardActionArea> 
+              <CardActionArea>
+                <CardMedia
+                component="img"
+                height="250"
+                image="https://media.istockphoto.com/id/1385983467/photo/glass-heart-flag-italy.jpg?s=612x612&w=0&k=20&c=inWMCX9DbQmdic1FONCVawce86JRpGb8KCBgSSM6awo="
+                alt="italian flag"
+                title="Italiano"
+                />
+              </CardActionArea>
+            </Link> 
           </Card>
         </Grid>
 
         <Grid item xs={12} md={6} lg={4}>
           <Card sx={{ maxWidth: 300 }}>
+          <Link to="">
       <CardActionArea>
         <CardMedia
           component="img"
@@ -87,19 +74,14 @@ function FlagCards() {
           alt="german flag"
           title="Deutsch"
         />
-         <CardActions>
-          <Button size="large">
-            <Link to="">
-        German
-            </Link>
-          </Button>
-        </CardActions>
       </CardActionArea>
+      </Link>
           </Card>
         </Grid>
 
         <Grid item xs={12} md={6} lg={4}>
           <Card sx={{ maxWidth: 300 }}>
+           <Link to="">
       <CardActionArea>
         <CardMedia
           component="img"
@@ -108,19 +90,14 @@ function FlagCards() {
           alt="turkish flag"
           title="Türkçe"
         />
-        <CardActions>
-          <Button size="large">
-            <Link to="">
-        Turkish
-            </Link>
-          </Button>
-        </CardActions>
       </CardActionArea>
+      </Link>
           </Card>
         </Grid>
 
         <Grid item xs={12} md={6} lg={4}>
           <Card sx={{ maxWidth: 300 }}>
+           <Link to="">
       <CardActionArea>
         <CardMedia
           component="img"
@@ -129,19 +106,15 @@ function FlagCards() {
           alt="chinese flag"
           title="中國人"
         />
-        <CardActions>
-          <Button size="large">
-            <Link to="">
-        Chinese
-            </Link>
-          </Button>
-        </CardActions>
+      
       </CardActionArea>
+      </Link>
           </Card>
         </Grid>
 
         <Grid item xs={12} md={6} lg={4}>
           <Card sx={{ maxWidth: 300 }}>
+           <Link to="">
       <CardActionArea>
         <CardMedia
           component="img"
@@ -150,19 +123,14 @@ function FlagCards() {
           alt="uae flag"
           title="عربي"
         />
-        <CardActions>
-          <Button size="large">
-            <Link to="">
-        Arabic
-            </Link>
-          </Button>
-        </CardActions>
       </CardActionArea> 
+      </Link>
           </Card>
         </Grid>
 
         <Grid item xs={12} md={6} lg={4}>
           <Card sx={{ maxWidth: 300 }}>
+           <Link to="">
       <CardActionArea>
         <CardMedia
           component="img"
@@ -171,19 +139,14 @@ function FlagCards() {
           alt="indian flag"
           title="हिंदी"
         />
-        <CardActions>
-          <Button size="large">
-            <Link to="">
-        Hindi
-            </Link>
-          </Button>
-        </CardActions>
       </CardActionArea> 
+      </Link>
           </Card>
         </Grid>
         
         <Grid item xs={12} md={6} lg={4}>
           <Card sx={{ maxWidth: 300 }}>
+           <Link to="">
       <CardActionArea>
         <CardMedia
           component="img"
@@ -192,18 +155,15 @@ function FlagCards() {
           alt="russian flag"
           title="русский"
         />
-        <CardActions>
-          <Button size="large">
-            <Link to="">
-        Russian
-            </Link>
-          </Button>
-        </CardActions>
+        
+    
+           
       </CardActionArea> 
+      </Link>
           </Card>
         </Grid>
+
       </Grid>
-    </div>
   );
 }
 
