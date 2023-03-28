@@ -62,15 +62,6 @@ function Italian() {
             <h2>Italian Quiz</h2>
             <Quiz quiz={quiz}/>
           </Box>
-          {showFlash ? (
-            <Box>
-            <FlashcardArray cards={frenchData} />
-            </Box>
-          ) : (
-            <Box>
-              <h2>Italian Quiz</h2>
-              <Quiz quiz={quiz}/>
-            </Box>
           )}
       </Container>
       </Container>
