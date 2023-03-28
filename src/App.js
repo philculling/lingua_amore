@@ -14,17 +14,38 @@ import { createTheme, ThemeProvider } from '@mui/material';
 
 const theme = createTheme({
   palette: {
-    primary: {
-      main: '#264039',
-    },
-    secondary: {
-      main: '#d487c1',
-      // dark: will be calculated from palette.secondary.main,
-    },
+      primary: {
+          main: '#264039',
+        },
+        secondary: {
+          main: '#d487c1',
+        },
   },
+      typography: {
+        h1: {
+          fontSize: "2rem",
+          marginLeft: "10px"
+        },
+        body1: {
+          fontWeight: 500,
+        },
+        button: {
+          fontStyle: '',
+        },
+        h2: {
+          fontSize: "1.5rem",
+          paddingTop: "50px",
+          marginLeft: "10px"
+
+        },
+        body1: {
+          fontSize: "1rem",
+          paddingTop: "40px",
+          marginLeft: "10px"
+      }
+      },
+    
 });
-
-
 
 function App() {
   return (
