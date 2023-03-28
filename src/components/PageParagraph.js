@@ -1,10 +1,10 @@
 import React from 'react'
 import { Typography } from "@mui/material";
 
-const PageParagraph = ({paragraph}) => {
+const PageParagraph = ({p}) => {
   return (
-    <Typography variant="body1">{paragraph}</Typography>
+    <Typography variant="body1">{p}</Typography>
   )
 }
 
-export default PageParagraph
+export default PageParagraph;
