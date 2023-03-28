@@ -9,8 +9,16 @@ import { Box, Button, Container } from "@mui/material";
 function Italian() {
 
   const [showFlash, setShowFlash] = useState(true);
-  const [data, setData] = useState([...frenchData]);
+  const [data] = useState([...frenchData]);
+  const [categoryFilter, setCategoryFilter] = useState('All');
 
+  const filteredData = data.filter(item => {
+    if (categoryFilter === 'All') {
+      return true;
+    } else {
+      return item.category === categoryFilter;
+    }
+  });
 
   const handleFlashClick = () => {
     setShowFlash(true);
@@ -20,8 +28,9 @@ function Italian() {
     setShowFlash(false);
   };
 
-  const filteredData = data.filter(item => item.category === 'colours');
-
+  const handleCategoryClick = (category) => {
+    setCategoryFilter(category);
+  };
 
   return (
       <Container sx={{display: "flex", flexDirection: 'column', justifyContent: "center", alignItems: "center"}}>
@@ -31,7 +40,10 @@ function Italian() {
           <Button color="secondary" onClick={handleFlashClick} variant="contained" size="large">Flashcards</Button>
         </Box>
         <Box>
-          <Button>Colours</Button>
+          <Button onClick={() => handleCategoryClick('All')}>All</Button>
+          <Button onClick={() => handleCategoryClick('colours')}>Colours</Button>
+          <Button onClick={() => handleCategoryClick('nature')}>Nature</Button>
+          <Button onClick={() => handleCategoryClick('household_items')}>Household Items</Button>
         </Box>
         {showFlash ? (
           <Box>
