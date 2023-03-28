@@ -2,9 +2,10 @@ import React, { useState } from "react";
 import frenchData from '../French.json'
 import Quiz from 'react-quiz-component';
 import quiz from './Spanishquiz.json';
+import PageTitle from "../PageTitle";
+import PageSubTitle from "../PageSubTitle";
 import { FlashcardArray } from "react-quizlet-flashcard";
 import Flashcard from '../Flashcard';
-
 
 function Spanish() {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -16,8 +17,8 @@ function Spanish() {
 
   return (
     <div>
-      <h1>Spanish</h1>
-      <h2>Spanish Quiz</h2>
+      <PageTitle title="Spanish"/>
+      <PageSubTitle subtitle="Spanish Quiz"/>
       <Quiz quiz={quiz}/>
       <p>
         Colores
