@@ -5,13 +5,8 @@ import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
-import azul from '../sounds/azul.mp3';
 
 function Flashcard(props) {
-  
-  function play() {
-    new Audio(azul).play()
-  }
 
   return (
     <Box sx={{display: "flex", justifyContent: "center", alignItems: "center"}}>
@@ -26,9 +21,6 @@ function Flashcard(props) {
               </Typography>
               <Typography variant="body2">
               well meaning and kindly.
-              <br></br>
-              <br></br>
-              <Button size="small" onClick={play}>Play Sound</Button>
               </Typography>
           </CardContent>
           <CardActions>

@@ -4,80 +4,60 @@
       "category": "colours",
       "front": "rouge",
       "back": "red",
-      "englishwav": "",
-      "frenchwav": "https://drive.google.com/file/d/18BqTePv7QLo00VN6aoMjYYXrRYRpKkVx/view?usp=sharing",
       "picture": "https://uk.search.yahoo.com/search?fr=mcafee&type=E211GB384G0&p=picture+of+full+screen+red"
     },
     {
         "id": 2,
         "category": "colours",
         "back": "orange",
-        "front": "orange",
-        "englishwav": "",
-        "frenchwav": ""
+        "front": "orange"
       },
       {
         "id": 3,
         "category": "colours",
         "back": "yellow",
-        "front": "jaune",
-        "englishwav": "",
-        "frenchwav": ""
+        "front": "jaune"
         },
       {
         "id": 4,
         "category": "colours",
         "back": "green",
-        "front": "vert",
-        "englishwav": "",
-        "frenchwav": ""
+        "front": "vert"
         },
       {
         "id": 5,
         "category": "colours",
         "back": "blue",
-        "front": "bleu",
-        "englishwav": "",
-        "frenchwav": ""
+        "front": "bleu"
         },
       {
         "id": 6,
         "category": "colours",
         "back": "white",
-        "front": "blanc",
-        "englishwav": "",
-        "frenchwav": ""
+        "front": "blanc"
         },
       {
         "id": 7,
         "category": "colours",
         "back": "black",
-        "front": "noir",
-        "englishwav": "",
-        "frenchwav": ""
+        "front": "noir"
         },
       {
         "id": 8,
         "category": "colours",
         "back": "brown",
-        "front": "brun",
-        "englishwav": "",
-        "frenchwav": ""
+        "front": "brun"
         },
       {
         "id": 9,
         "category": "colours",
         "back": "pink",
-        "front": "rose",
-        "englishwav": "",
-        "frenchwav": ""
+        "front": "rose"
         },
       {
         "id": 10,
         "category": "colours",
         "back": "grey",
-        "front": "gris",
-        "englishwav": "",
-        "frenchwav": ""
+        "front": "gris"
         }
 ]
