@@ -14,6 +14,16 @@ import { Box, Button, Container } from "@mui/material";
 function Italian() {
 
   const [showFlash, setShowFlash] = useState(true);
+  const [data] = useState([...frenchData]);
+  const [categoryFilter, setCategoryFilter] = useState('All');
+
+  const filteredData = data.filter(item => {
+    if (categoryFilter === 'All') {
+      return true;
+    } else {
+      return item.category === categoryFilter;
+    }
+  });
 
   const handleFlashClick = () => {
     setShowFlash(true);
@@ -21,6 +31,10 @@ function Italian() {
 
   const handleQuizClick = () => {
     setShowFlash(false);
+  };
+
+  const handleCategoryClick = (category) => {
+    setCategoryFilter(category);
   };
 
   return (
@@ -40,9 +54,15 @@ function Italian() {
           <Button color="secondary"   sx={{margin: "10px"}}onClick={handleQuizClick} variant="contained" size="large">Quiz</Button>
           <Button color="secondary" onClick={handleFlashClick} variant="contained" size="large">Flashcards</Button>
         </Box>
+        <Box>
+          <Button onClick={() => handleCategoryClick('All')}>All</Button>
+          <Button onClick={() => handleCategoryClick('colours')}>Colours</Button>
+          <Button onClick={() => handleCategoryClick('nature')}>Nature</Button>
+          <Button onClick={() => handleCategoryClick('household_items')}>Household Items</Button>
+        </Box>
         {showFlash ? (
           <Box>
-          <FlashcardArray cards={frenchData} />
+          <FlashcardArray cards={filteredData} />
           </Box>
         ) : (
           <Box>

@@ -58,6 +58,24 @@
         "id": 10,
         "category": "colours",
         "back": "grey",
-        "front": "gris"
-        }
+        "front": "gris",
+        "englishwav": "",
+        "frenchwav": ""
+        },
+        {
+          "id": 11,
+          "category": "nature",
+          "back": "tree",
+          "front": "arbre",
+          "englishwav": "",
+          "frenchwav": ""
+        },
+          {
+          "id": 12,
+          "category": "household_items",
+          "back": "canapé",
+          "front": "sofa",
+          "englishwav": "",
+          "frenchwav": ""
+          }
 ]
