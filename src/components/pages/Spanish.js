@@ -10,8 +10,9 @@ import Noir from '../../sounds/Noir.mp3';
 import Orange from '../../sounds/Orange.mp3';
 import Rose from '../../sounds/Rose.mp3';
 import Vert from '../../sounds/Vert.mp3';
-
-import correct from '../../sounds/correct.wav';
+import Bleu from '../../sounds/Bleu.mp3';
+import Blanc from '../../sounds/Blanc.mp3';
+import Brun from '../../sounds/Brun.mp3';
 
 function Spanish() {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -25,20 +26,19 @@ function Spanish() {
     if (currentIndex === 0) {
     new Audio(Rouge).play()}
     else if (currentIndex === 1) {
-      new Audio(Orange).play()
-    }
+      new Audio(Orange).play()}
     else if (currentIndex === 2) {
       new Audio(Jaune).play()
     }else if (currentIndex === 3) {
       new Audio(Vert).play()
     }else if (currentIndex === 4) {
-      new Audio(correct).play()
+      new Audio(Bleu).play()
     }else if (currentIndex === 5) {
-      new Audio(correct).play()
+      new Audio(Blanc).play()
     }else if (currentIndex === 6) {
       new Audio(Noir).play()
     }else if (currentIndex === 7) {
-      new Audio(correct).play()
+      new Audio(Brun).play()
     }else if (currentIndex === 8) {
       new Audio(Rose).play()
     }else 
