@@ -38,22 +38,15 @@ function Italian() {
   };
 
   return (
-
-    <div>
-    <PageTitle title="Italian"/>
-      <PageSubTitle subtitle="Italian Quiz"/>
-      <Quiz quiz={quiz}/>
-      <p>
-        Colores
-      </p>
-    </div>
-
-      <Container sx={{display: "flex", flexDirection: 'column', justifyContent: "center", alignItems: "center"}}>
-        <h1>Italian</h1>
-        <Box sx={{display: "flex", justifyContent: "space-around", alignItems: "center"}}>
-          <Button color="secondary"   sx={{margin: "10px"}}onClick={handleQuizClick} variant="contained" size="large">Quiz</Button>
-          <Button color="secondary" onClick={handleFlashClick} variant="contained" size="large">Flashcards</Button>
-        </Box>
+    <Container>
+      <PageTitle title="Italian"/>
+        <PageSubTitle subtitle="Italian Quiz"/>
+        <Container sx={{display: "flex", flexDirection: 'column', justifyContent: "center", alignItems: "center"}}>
+          <h1>Italian</h1>
+          <Box sx={{display: "flex", justifyContent: "space-around", alignItems: "center"}}>
+            <Button color="secondary"   sx={{margin: "10px"}}onClick={handleQuizClick} variant="contained" size="large">Quiz</Button>
+            <Button color="secondary" onClick={handleFlashClick} variant="contained" size="large">Flashcards</Button>
+          </Box>
         <Box>
           <Button onClick={() => handleCategoryClick('All')}>All</Button>
           <Button onClick={() => handleCategoryClick('colours')}>Colours</Button>
@@ -69,8 +62,19 @@ function Italian() {
             <h2>Italian Quiz</h2>
             <Quiz quiz={quiz}/>
           </Box>
-        )}
+          {showFlash ? (
+            <Box>
+            <FlashcardArray cards={frenchData} />
+            </Box>
+          ) : (
+            <Box>
+              <h2>Italian Quiz</h2>
+              <Quiz quiz={quiz}/>
+            </Box>
+          )}
       </Container>
+      </Container>
+
   );
 }
 

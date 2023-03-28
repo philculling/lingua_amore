@@ -15,12 +15,8 @@ import Bleu from '../../sounds/Bleu.mp3';
 import Blanc from '../../sounds/Blanc.mp3';
 import Brun from '../../sounds/Brun.mp3';
 
-
-import correct from '../../sounds/correct.wav';
 import PageTitle from "../PageTitle";
 import PageSubTitle from "../PageSubTitle";
-import { FlashcardArray } from "react-quizlet-flashcard";
-import Flashcard from '../Flashcard';
 
 
 function Spanish() {
