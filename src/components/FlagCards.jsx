@@ -3,21 +3,23 @@ import Card from '@mui/material/Card';
 // import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 // import Typography from '@mui/material/Typography';
-import { CardActionArea, CardActions, Button } from '@mui/material';
+import { CardActionArea } from '@mui/material';
 import { Grid } from '@mui/material'
 import { Link } from 'react-router-dom';
+import { bgcolor } from '@mui/system';
 
 
 function FlagCards() {
   return (
-    <Grid sx={{alignContent: "flex-end", paddingLeft: 60, paddingTop: 0}}
-      container spacing={2} rowGap={2}>
+    <Grid sx={{paddingLeft: 100, paddingTop: 0}}
+      flex container columnSpacing={2} rowSpacing={2}>
         
         <Grid item xs={12} md={6} lg={4}>
           <Link to="/french">
             <Card sx={{ maxWidth: 300 }}>
               <CardActionArea>
                 <CardMedia
+                
                 component="img"
                 height="250"
                 image="https://media.istockphoto.com/id/1385983466/photo/glass-heart-flag-france.jpg?s=612x612&w=0&k=20&c=hVeHUr5Hr7Fn4Bu2aEM6PqjVNrLbYXZysHd29Ge3Ru0="
@@ -29,8 +31,6 @@ function FlagCards() {
           </Link>
         </Grid>
        
-         
-
         <Grid item xs={12} md={6} lg={4}>
           <Card sx={{ maxWidth: 300 }}>
             <Link to="/spanish">
@@ -129,17 +129,17 @@ function FlagCards() {
 
         <Grid item xs={12} md={6} lg={4}>
           <Card sx={{ maxWidth: 300 }}>
-           <Link to="">
-      <CardActionArea>
-        <CardMedia
-          component="img"
-          height="250"
-          image="https://media.istockphoto.com/id/1386162345/photo/glass-heart-flag-india.jpg?s=612x612&w=0&k=20&c=PqFi6xUldP84NjAxpuud-qxLro1T5AZAoYSEKc_27nU="
-          alt="indian flag"
-          title="हिंदी"
-        />
-      </CardActionArea> 
-      </Link>
+            <Link to="">
+              <CardActionArea>
+                <CardMedia
+                component="img"
+                height="250"
+                image="https://media.istockphoto.com/id/1386162345/photo/glass-heart-flag-india.jpg?s=612x612&w=0&k=20&c=PqFi6xUldP84NjAxpuud-qxLro1T5AZAoYSEKc_27nU="
+                alt="indian flag"
+                title="हिंदी"
+                />
+              </CardActionArea> 
+            </Link>
           </Card>
         </Grid>
         

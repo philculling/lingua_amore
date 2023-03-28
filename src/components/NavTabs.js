@@ -37,7 +37,7 @@ function NavBar() {
   };
 
   return (
-    <AppBar position="sticky">
+    <AppBar position="static">
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           <FavoriteBorderIcon sx={{ color: "red", display: { xs: 'none', md: 'flex' }, mr: 1 }} />
