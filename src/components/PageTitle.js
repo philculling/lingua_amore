@@ -3,7 +3,7 @@ import { Typography } from "@mui/material";
 
 const PageTitle = ({title}) => {
   return (
-    <Typography variant="h1">{title}</Typography>
+    <Typography sx={{paddingBottom: '50px', paddingTop: '20px'}} variant="h1">{title}</Typography>
   )
 }
 
