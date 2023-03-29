@@ -2,73 +2,73 @@
     {
       "id": 1,
       "category": "colours",
-      "front": "rouge",
+      "front": "rosso",
       "back": "red"
     },
     {
         "id": 2,
         "category": "colours",
         "back": "orange",
-        "front": "orange"
+        "front": "arancione"
       },
       {
         "id": 3,
         "category": "colours",
         "back": "yellow",
-        "front": "jaune"
+        "front": "giallo"
         },
       {
         "id": 4,
         "category": "colours",
         "back": "green",
-        "front": "vert"
+        "front": "verde"
         },
       {
         "id": 5,
         "category": "colours",
         "back": "blue",
-        "front": "bleu"
+        "front": "blu"
         },
       {
         "id": 6,
         "category": "colours",
         "back": "white",
-        "front": "blanc"
+        "front": "bianco"
         },
       {
         "id": 7,
         "category": "colours",
         "back": "black",
-        "front": "noir"
+        "front": "nero"
         },
       {
         "id": 8,
         "category": "colours",
         "back": "brown",
-        "front": "brun"
+        "front": "marrone"
         },
       {
         "id": 9,
         "category": "colours",
         "back": "pink",
-        "front": "rose"
+        "front": "rosa"
         },
       {
         "id": 10,
         "category": "colours",
         "back": "grey",
-        "front": "gris"
+        "front": "grigio"
         },
         {
           "id": 11,
           "category": "nature",
           "back": "tree",
-          "front": "arbre"
+          "front": "albero"
         },
           {
           "id": 12,
           "category": "household_items",
-          "back": "canapé",
-          "front": "sofa"
+          "back": "sedia",
+          "front": "chair"
           }
 ]

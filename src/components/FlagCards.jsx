@@ -5,8 +5,6 @@ import { CardActionArea } from '@mui/material';
 import { Grid } from '@mui/material'
 import { Link } from 'react-router-dom';
 
-
-
 function FlagCards() {
   return (
     <Grid sx={{paddingLeft: 20, paddingTop: 10}}

@@ -1,27 +1,36 @@
 import React, { useState } from "react";
 import Quiz from 'react-quiz-component';
-import quiz from './Quiz';
+import quiz from './Frenchquiz';
 import PageTitle from "../PageTitle";
 import PageSubTitle from "../PageSubTitle";
 import { FlashcardArray } from "react-quizlet-flashcard";
 import frenchData from '../French.json'
 import { Box, Button, Container } from "@mui/material";
-import Rouge from '../../sounds/Rouge.mp3';
-import Gris from '../../sounds/Gris.mp3';
-import Jaune from '../../sounds/Jaune.mp3';
-import Noir from '../../sounds/Noir.mp3';
-import Orange from '../../sounds/Orange.mp3';
-import Rose from '../../sounds/Rose.mp3';
-import Vert from '../../sounds/Vert.mp3';
-import Bleu from '../../sounds/Bleu.mp3';
-import Blanc from '../../sounds/Blanc.mp3';
-import Brun from '../../sounds/Brun.mp3';
+import Rouge from '../../sounds/Frenchsounds/Rouge.mp3';
+import Gris from '../../sounds/Frenchsounds/Gris.mp3';
+import Jaune from '../../sounds/Frenchsounds/Jaune.mp3';
+import Noir from '../../sounds/Frenchsounds/Noir.mp3';
+import Orange from '../../sounds/Frenchsounds/Orange.mp3';
+import Rose from '../../sounds/Frenchsounds/Rose.mp3';
+import Vert from '../../sounds/Frenchsounds/Vert.mp3';
+import Bleu from '../../sounds/Frenchsounds/Bleu.mp3';
+import Blanc from '../../sounds/Frenchsounds/Blanc.mp3';
+import Brun from '../../sounds/Frenchsounds/Brun.mp3';
 
 function French() {
 
   const [showFlash, setShowFlash] = useState(true);
   const [currentCard, setCurrentCard] = useState(1);
+  const [data] = useState([...frenchData]);
+  const [categoryFilter, setCategoryFilter] = useState('All');
 
+  const filteredData = data.filter(item => {
+    if (categoryFilter === 'All') {
+      return true;
+    } else {
+      return item.category === categoryFilter;
+    }
+  });
 
   const handleFlashClick = () => {
     setShowFlash(true);
@@ -31,6 +40,9 @@ function French() {
     setShowFlash(false);
   };
 
+  const handleCategoryClick = (category) => {
+    setCategoryFilter(category);
+  };
 
   function play() {
     if (currentCard === 1) {
@@ -59,26 +71,34 @@ function French() {
       setCurrentCard(index);
     };
 
-
   return (
     <div>
       <PageTitle title="French"/>
       <PageSubTitle subtitle="French Quiz"/>
       <PageSubTitle subtitle="Colours"/>
       <Container sx={{display: "flex", flexDirection: 'column', justifyContent: "center", alignItems: "center"}}>
-        <button onClick={play}>Play French word</button>
         <Box sx={{display: "flex", justifyContent: "space-around", alignItems: "center"}}>
           <Button color="secondary"   sx={{margin: "10px"}}onClick={handleQuizClick} variant="contained" size="large">Quiz</Button>
           <Button color="secondary" onClick={handleFlashClick} variant="contained" size="large">Flashcards</Button>
         </Box>
         
         {showFlash ? (
-          <Box>
-          <FlashcardArray 
-            cards={frenchData}
-            onCardChange={handleCardChange}
-          />
-          </Box>
+         <Box>
+         <Box sx={{display: "flex", justifyContent: "center", alignItems: "center"}}>
+           <Button onClick={() => handleCategoryClick('All')}>All</Button>
+           <Button onClick={() => handleCategoryClick('colours')}>Colours</Button>
+           <Button onClick={() => handleCategoryClick('nature')}>Nature</Button>
+           <Button onClick={() => handleCategoryClick('household_items')}>Household Items</Button>
+         </Box>
+         <Box>
+           <FlashcardArray 
+             cards={filteredData} 
+             onCardChange={handleCardChange}/>
+         </Box>
+         <Box sx={{display: "flex", justifyContent: "center", alignItems: "center"}}>
+         <Button variant="contained" color="secondary" onClick={play}>Play Sound</Button>
+         </Box>
+       </Box>
         ) : (
           <Box>
             <h2>French Quiz</h2>

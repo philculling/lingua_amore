@@ -26,6 +26,9 @@ const theme = createTheme({
           fontSize: "4rem",
           marginLeft: "20px",
         },
+        button: {
+          fontStyle: '',
+        },
         h2: {
           fontSize: "3rem",
           paddingTop: "50px",
@@ -33,6 +36,7 @@ const theme = createTheme({
 
         },
         body1: {
+          fontWeight: 500,
           fontSize: "1rem",
           paddingTop: "40px",
           marginLeft: "20px"
