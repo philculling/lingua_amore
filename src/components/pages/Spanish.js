@@ -63,7 +63,7 @@ function Spanish() {
       <PageSubTitle subtitle="Spanish Quiz"/>
       <PageSubTitle subtitle="Colores"/>
       <Container sx={{display: "flex", flexDirection: 'column', justifyContent: "center", alignItems: "center"}}>
-        <button onClick={play}>Play Spanish word</button>
+        <Button color="secondary" variant="contained" size="large" onClick={play}>Play Spanish word</Button>
         <Box sx={{display: "flex", justifyContent: "space-around", alignItems: "center"}}>
           <Button color="secondary"   sx={{margin: "10px"}}onClick={handleQuizClick} variant="contained" size="large">Quiz</Button>
           <Button color="secondary" onClick={handleFlashClick} variant="contained" size="large">Flashcards</Button>

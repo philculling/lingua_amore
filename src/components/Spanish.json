@@ -3,8 +3,7 @@
       "id": 1,
       "category": "colours",
       "front": "rouge",
-      "back": "red",
-      "picture": "https://uk.search.yahoo.com/search?fr=mcafee&type=E211GB384G0&p=picture+of+full+screen+red"
+      "back": "red"
     },
     {
         "id": 2,
@@ -58,24 +57,18 @@
         "id": 10,
         "category": "colours",
         "back": "grey",
-        "front": "gris",
-        "englishwav": "",
-        "frenchwav": ""
+        "front": "gris"
         },
         {
           "id": 11,
           "category": "nature",
           "back": "tree",
-          "front": "arbre",
-          "englishwav": "",
-          "frenchwav": ""
+          "front": "arbre"
         },
           {
           "id": 12,
           "category": "household_items",
           "back": "canapé",
-          "front": "sofa",
-          "englishwav": "",
-          "frenchwav": ""
+          "front": "sofa"
           }
 ]
