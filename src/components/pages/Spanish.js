@@ -17,12 +17,13 @@ import PageTitle from "../PageTitle";
 import { Box, Button, Container } from "@mui/material";
 
 function Spanish() {
-
+  //setting state values
   const [showFlash, setShowFlash] = useState(true);
   const [currentCard, setCurrentCard] = useState(1);
   const [data] = useState([...spanishData]);
   const [categoryFilter, setCategoryFilter] = useState('All');
 
+  //function to filter json data by category
   const filteredData = data.filter(item => {
     if (categoryFilter === 'All') {
       return true;
@@ -31,18 +32,22 @@ function Spanish() {
     }
   });
 
+  //function to determine when the flashcards show up
   const handleFlashClick = () => {
     setShowFlash(true);
   };
 
+  //function to determine when the quiz shows up
   const handleQuizClick = () => {
     setShowFlash(false);
   };
 
+  //function to determine which category was selected
   const handleCategoryClick = (category) => {
     setCategoryFilter(category);
   };
 
+  //function to play audio clips depending on current card index
   function play() {
     if (currentCard === 1) {
     new Audio(Rojo).play()}
@@ -66,6 +71,7 @@ function Spanish() {
       new Audio(Gris).play()
     }
 
+    //function to update card index
     const handleCardChange = (index) => {
       setCurrentCard(index);
     };
