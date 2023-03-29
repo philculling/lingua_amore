@@ -1,70 +1,44 @@
-# Getting Started with Create React App
+# Final Projects: lingua_amore
+Project 2, building a client-side single-page application.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Team: Musleha, Nailah and Phil
 
-## Available Scripts
+## Description
+- We wanted to create a user friendly language learning site using REACT and deployed to Netlify.
+- We wanted the site to contain a home page with a choice of several languages to learn. The available languages are represented by flags of countries in a heart shape.
+- Our MVP is to develop a functioning page for learning French. Once fully developed, each language would subdivide into topics. For demonstration purposes, we have chosen colours.
+- There are demonstration pages for Spanish and Italian.
 
-In the project directory, you can run:
+- We wanted to develop our skills of using REACT.
+- We wanted to research and use at least 2 technologies that we had not used before.
+- Our new technologies were:
+    - npm react-quiz-component
+    - npm react-quizlet-flashcard
+    - Material-UI styling engine
+- We wanted to develop our skills of using github branching workflow.
+- We wanted to develop our skills of agile software development.
+- We wanted to deploy our finished product to Netlify and check it had no errors.
 
-### `npm start`
+## Installation
+n/a
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Usage
+- The user chooses a language either from the navbar or by clicking on the heart shaped flags.
+- Once on the topic page, the user can choose between the default option of Flashcards, or a Quiz.
+- Each topic contains a number of flashcards. When a flashcard is clicked on, it flips to show the translation. The user can scroll from one flashcard to the next using the arrows that are below the flashcards.
+- The user can play an audio clip of the word in the target language.
+- The user can choose at any point to take part in the quiz. The quiz generates questions in a multiple choice format. Once completed, scores are displayed and the user is able to look through correct and incorrect answers to assist their learning.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The site is published at https://philculling.github.io/lingua_amore
 
-### `npm test`
+Screenshots:
+![Screenshot](./src/components/Images/ScreenshotHome.png "Screenshot of home page")
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![Screenshot](./src/components/Images/ScreenshotFlashcard.png "Screenshot of flashcard")
 
-### `npm run build`
+![Screenshot](./src/components/Images/ScreenshotQuiz.png "Screenshot of quiz")
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Credits
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## License
+Site is published using the MIT licence.

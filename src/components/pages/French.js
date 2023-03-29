@@ -59,7 +59,6 @@ function French() {
       setCurrentCard(index);
     };
 
-
   return (
     <div>
       <PageTitle title="French"/>
