@@ -1,10 +1,7 @@
 import React, { useState } from "react";
 import Quiz from 'react-quiz-component';
 import quiz from './Italianquiz.json';
-
 import PageTitle from "../PageTitle";
-import PageSubTitle from "../PageSubTitle";
-
 import { FlashcardArray } from "react-quizlet-flashcard";
 import italianData from '../Italian.json'
 import { Box, Button, Container } from "@mui/material";
@@ -51,11 +48,9 @@ function Italian() {
 
     };
   return (
-    <Container>
+    <Container sx={{padding: "20px", display: "flex", flexDirection: 'column', justifyContent: "center", alignItems: "center"}}>
       <PageTitle title="Italian"/>
-        <PageSubTitle subtitle="Italian Quiz"/>
         <Container sx={{display: "flex", flexDirection: 'column', justifyContent: "center", alignItems: "center"}}>
-          <h1>Italian</h1>
           <Box sx={{display: "flex", justifyContent: "space-around", alignItems: "center"}}>
             <Button color="secondary"  sx={{margin: "10px"}}onClick={handleQuizClick} variant="contained" size="large">Quiz</Button>
             <Button color="secondary" onClick={handleFlashClick} variant="contained" size="large">Flashcards</Button>
