@@ -3,11 +3,11 @@ import spanishData from '../Spanish.json'
 import Quiz from 'react-quiz-component';
 import quiz from './Spanishquiz.json';
 import { Flashcard, FlashcardArray } from "react-quizlet-flashcard";
-import Rouge from '../../sounds/Rouge.mp3';
+import Rojo from '../../sounds/Rojo.mp3';
 import Gris from '../../sounds/Gris.mp3';
 import Jaune from '../../sounds/Jaune.mp3';
 import Noir from '../../sounds/Noir.mp3';
-import Orange from '../../sounds/Orange.mp3';
+import Anaranjado from '../../sounds/Anaranjado.mp3';
 import Rose from '../../sounds/Rose.mp3';
 import Vert from '../../sounds/Vert.mp3';
 import Bleu from '../../sounds/Bleu.mp3';
@@ -32,9 +32,9 @@ function Spanish() {
 
   function play() {
     if (currentCard === 1) {
-    new Audio(Rouge).play()}
+    new Audio(Rojo).play()}
     else if (currentCard === 2) {
-      new Audio(Orange).play()}
+      new Audio(Anaranjado).play()}
     else if (currentCard === 3) {
       new Audio(Jaune).play()
     }else if (currentCard === 4) {
