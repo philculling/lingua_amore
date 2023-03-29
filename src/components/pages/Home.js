@@ -2,7 +2,7 @@ import React from "react";
 import PageTitle from "../PageTitle";
 import PageParagraph from "../PageParagraph";
 import FlagCards from "../FlagCards";
-import { Box, Container } from "@mui/material";
+import { Container } from "@mui/material";
 
 const Home = () => (
  
