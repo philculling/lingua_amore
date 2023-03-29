@@ -1,6 +1,6 @@
 {
     "quizTitle": "Italian colours",
-    "nrOfQuestions": "1",
+    "nrOfQuestions": "10",
     "questions": [
       {
         "question": "What is the Italian for yellow?",
@@ -13,6 +13,141 @@
           "bianco"
         ],
         "correctAnswer": "3",
+        "messageForCorrectAnswer": "Correct answer. Good job.",
+        "messageForIncorrectAnswer": "Incorrect answer. Please try again.",
+        "point": "1"
+      },
+      {
+        "question": "What is the Italian for orange?",
+        "questionType": "text",
+        "answerSelectionType": "single",
+        "answers": [
+          "giallo",
+          "verde",
+          "arancione",
+          "blu"
+        ],
+        "correctAnswer": "3",
+        "messageForCorrectAnswer": "Correct answer. Good job.",
+        "messageForIncorrectAnswer": "Incorrect answer. Please try again.",
+        "point": "1"
+      },
+      {
+        "question": "What is the Italian for black?",
+        "questionType": "text",
+        "answerSelectionType": "single",
+        "answers": [
+          "grigio",
+          "rosa",
+          "marrone",
+          "nero"
+        ],
+        "correctAnswer": "4",
+        "messageForCorrectAnswer": "Correct answer. Good job.",
+        "messageForIncorrectAnswer": "Incorrect answer. Please try again.",
+        "point": "1"
+      },
+      {
+        "question": "What is the Italian for blue?",
+        "questionType": "text",
+        "answerSelectionType": "single",
+        "answers": [
+          "arancione",
+          "blu",
+          "rosso",
+          "giallo"
+        ],
+        "correctAnswer": "2",
+        "messageForCorrectAnswer": "Correct answer. Good job.",
+        "messageForIncorrectAnswer": "Incorrect answer. Please try again.",
+        "point": "1"
+      },
+      {
+        "question": "What is the Italian for white?",
+        "questionType": "text",
+        "answerSelectionType": "single",
+        "answers": [
+          "verde",
+          "blu",
+          "bianco",
+          "nero"
+        ],
+        "correctAnswer": "3",
+        "messageForCorrectAnswer": "Correct answer. Good job.",
+        "messageForIncorrectAnswer": "Incorrect answer. Please try again.",
+        "point": "1"
+      },
+      {
+        "question": "What is the Italian for grey?",
+        "questionType": "text",
+        "answerSelectionType": "single",
+        "answers": [
+          "marrone",
+          "grigio",
+          "rosso",
+          "bianco"
+        ],
+        "correctAnswer": "2",
+        "messageForCorrectAnswer": "Correct answer. Good job.",
+        "messageForIncorrectAnswer": "Incorrect answer. Please try again.",
+        "point": "1"
+      },
+      {
+        "question": "What is the Italian for red?",
+        "questionType": "text",
+        "answerSelectionType": "single",
+        "answers": [
+          "verde",
+          "giallo",
+          "nero",
+          "rosso"
+        ],
+        "correctAnswer": "4",
+        "messageForCorrectAnswer": "Correct answer. Good job.",
+        "messageForIncorrectAnswer": "Incorrect answer. Please try again.",
+        "point": "1"
+      },
+      {
+        "question": "What is the Italian for brown?",
+        "questionType": "text",
+        "answerSelectionType": "single",
+        "answers": [
+          "marrone",
+          "blu",
+          "giallo",
+          "verde"
+        ],
+        "correctAnswer": "1",
+        "messageForCorrectAnswer": "Correct answer. Good job.",
+        "messageForIncorrectAnswer": "Incorrect answer. Please try again.",
+        "point": "1"
+      },
+      {
+        "question": "What is the Italian for pink?",
+        "questionType": "text",
+        "answerSelectionType": "single",
+        "answers": [
+          "rosso",
+          "verde",
+          "rosa",
+          "nero"
+        ],
+        "correctAnswer": "3",
+        "messageForCorrectAnswer": "Correct answer. Good job.",
+        "messageForIncorrectAnswer": "Incorrect answer. Please try again.",
+        "point": "1"
+      },
+      {
+        "question": "What is the Italian for green?",
+        "questionType": "text",
+        "answerSelectionType": "single",
+        "answers": [
+          "nero",
+          "rosa",
+          "rosso",
+          "verde"
+        ],
+        "correctAnswer": "4",
         "messageForCorrectAnswer": "Correct answer. Good job.",
         "messageForIncorrectAnswer": "Incorrect answer. Please try again.",
         "point": "1"

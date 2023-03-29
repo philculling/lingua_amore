@@ -63,12 +63,12 @@
           "id": 11,
           "category": "nature",
           "back": "tree",
-          "front": "arbre"
+          "front": "albero"
         },
           {
           "id": 12,
           "category": "household_items",
-          "back": "canapé",
-          "front": "sofa"
+          "back": "sedia",
+          "front": "chair"
           }
 ]
