@@ -7,10 +7,10 @@ import { Link } from 'react-router-dom';
 
 function FlagCards() {
   return (
-    <Grid sx={{paddingLeft: 20, paddingTop: 10}}
+    <Grid sx={{paddingLeft: 5, paddingTop: 10}}
       flex container columnSpacing={3} rowSpacing={3}>
         
-        <Grid item xs={12} s={6} md={4} lg={3}>
+        <Grid item xs={12} sm={6} md={4} lg={3}>
           <Link to="/french">
             <Card sx={{ maxWidth: 300 }}>
               <CardActionArea>
@@ -27,7 +27,7 @@ function FlagCards() {
           </Link>
         </Grid>
        
-        <Grid item xs={12} s={6} md={4} lg={3}>
+        <Grid item xs={12} sm={6} md={4} lg={3}>
           <Card sx={{ maxWidth: 300 }}>
             <Link to="/spanish">
               <CardActionArea>
@@ -43,7 +43,7 @@ function FlagCards() {
           </Card>
         </Grid>
 
-        <Grid item xs={12} s={6} md={4} lg={3}>
+        <Grid item xs={12} sm={6} md={4} lg={3}>
           <Card sx={{ maxWidth: 300 }}>
             <Link to="/italian">
               <CardActionArea>
@@ -59,7 +59,7 @@ function FlagCards() {
           </Card>
         </Grid>
 
-        <Grid item xs={12} s={6} md={4} lg={3}>
+        <Grid item xs={12} sm={6} md={4} lg={3}>
           <Card sx={{ maxWidth: 300 }}>
             <Link to="">
               <CardActionArea>
@@ -75,7 +75,7 @@ function FlagCards() {
           </Card>
         </Grid>
 
-        <Grid item xs={12} s={6} md={4} lg={3}>
+        <Grid item xs={12} sm={6} md={4} lg={3}>
           <Card sx={{ maxWidth: 300 }}>
             <Link to="">
               <CardActionArea>
@@ -91,7 +91,7 @@ function FlagCards() {
           </Card>
         </Grid>
 
-        <Grid item xs={12} s={6} md={4} lg={3}>
+        <Grid item xs={12} sm={6} md={4} lg={3}>
           <Card sx={{ maxWidth: 300 }}>
             <Link to="">
               <CardActionArea>
@@ -107,7 +107,7 @@ function FlagCards() {
           </Card>
         </Grid>
 
-        <Grid item xs={12} s={6} md={4} lg={3}>
+        <Grid item xs={12} sm={6} md={4} lg={3}>
           <Card sx={{ maxWidth: 300 }}>
             <Link to="">
               <CardActionArea>
@@ -123,7 +123,7 @@ function FlagCards() {
           </Card>
         </Grid>
 
-        <Grid item xs={12} s={6} md={4} lg={3}>
+        <Grid item xs={12} sm={6} md={4} lg={3}>
           <Card sx={{ maxWidth: 300 }}>
             <Link to="">
               <CardActionArea>
