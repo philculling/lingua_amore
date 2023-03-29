@@ -12,7 +12,11 @@ import '@fontsource/roboto/500.css';
 import '@fontsource/roboto/700.css';
 import { createTheme, ThemeProvider } from '@mui/material';
 
+
+const font =  "'Oregano', cursive";
+
 const theme = createTheme({
+
   palette: {
       primary: {
           main: '#264039',
@@ -22,6 +26,7 @@ const theme = createTheme({
         },
   },
       typography: {
+        fontFamily: font,
         h1: {
           fontSize: "4rem",
           marginLeft: "20px",
