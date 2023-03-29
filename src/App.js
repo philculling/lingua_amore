@@ -23,23 +23,23 @@ const theme = createTheme({
   },
       typography: {
         h1: {
-          fontSize: "2rem",
-          marginLeft: "10px"
+          fontSize: "4rem",
+          marginLeft: "20px",
         },
         button: {
           fontStyle: '',
         },
         h2: {
-          fontSize: "1.5rem",
+          fontSize: "3rem",
           paddingTop: "50px",
-          marginLeft: "10px"
+          marginLeft: "20px"
 
         },
         body1: {
           fontWeight: 500,
           fontSize: "1rem",
           paddingTop: "40px",
-          marginLeft: "10px"
+          marginLeft: "20px"
       }
       },
     
