@@ -14,7 +14,6 @@ import Bleu from '../../sounds/Frenchsounds/Bleu.mp3';
 import Blanc from '../../sounds/Frenchsounds/Blanc.mp3';
 import Brun from '../../sounds/Frenchsounds/Brun.mp3';
 import PageTitle from "../PageTitle";
-import PageSubTitle from "../PageSubTitle";
 import { Box, Button, Container } from "@mui/material";
 
 function Spanish() {
@@ -72,10 +71,8 @@ function Spanish() {
     };
 
   return (
-    <div>
+    <Container sx={{padding: "20px", display: "flex", flexDirection: 'column', justifyContent: "center", alignItems: "center"}}>
       <PageTitle title="Spanish"/>
-      <PageSubTitle subtitle="Spanish Quiz"/>
-      <PageSubTitle subtitle="Colores"/>
       <Container sx={{display: "flex", flexDirection: 'column', justifyContent: "center", alignItems: "center"}}>
         <Box sx={{display: "flex", justifyContent: "space-around", alignItems: "center"}}>
           <Button color="secondary"   sx={{margin: "10px"}}onClick={handleQuizClick} variant="contained" size="large">Quiz</Button>
@@ -106,7 +103,7 @@ function Spanish() {
           </Box>
         )}
       </Container>
-    </div>
+    </Container>
   );
 }
 
