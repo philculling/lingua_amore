@@ -1,20 +1,18 @@
 import React from 'react'
 import Card from '@mui/material/Card';
-// import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
-// import Typography from '@mui/material/Typography';
 import { CardActionArea } from '@mui/material';
 import { Grid } from '@mui/material'
 import { Link } from 'react-router-dom';
-import { bgcolor } from '@mui/system';
+
 
 
 function FlagCards() {
   return (
-    <Grid sx={{paddingLeft: 100, paddingTop: 0}}
-      flex container columnSpacing={2} rowSpacing={2}>
+    <Grid sx={{paddingLeft: 20, paddingTop: 10}}
+      flex container columnSpacing={3} rowSpacing={3}>
         
-        <Grid item xs={12} md={6} lg={4}>
+        <Grid item xs={12} s={6} md={4} lg={3}>
           <Link to="/french">
             <Card sx={{ maxWidth: 300 }}>
               <CardActionArea>
@@ -31,7 +29,7 @@ function FlagCards() {
           </Link>
         </Grid>
        
-        <Grid item xs={12} md={6} lg={4}>
+        <Grid item xs={12} s={6} md={4} lg={3}>
           <Card sx={{ maxWidth: 300 }}>
             <Link to="/spanish">
               <CardActionArea>
@@ -47,7 +45,7 @@ function FlagCards() {
           </Card>
         </Grid>
 
-        <Grid item xs={12} md={6} lg={4}>
+        <Grid item xs={12} s={6} md={4} lg={3}>
           <Card sx={{ maxWidth: 300 }}>
             <Link to="/italian">
               <CardActionArea>
@@ -63,7 +61,7 @@ function FlagCards() {
           </Card>
         </Grid>
 
-        <Grid item xs={12} md={6} lg={4}>
+        <Grid item xs={12} s={6} md={4} lg={3}>
           <Card sx={{ maxWidth: 300 }}>
             <Link to="">
               <CardActionArea>
@@ -79,7 +77,7 @@ function FlagCards() {
           </Card>
         </Grid>
 
-        <Grid item xs={12} md={6} lg={4}>
+        <Grid item xs={12} s={6} md={4} lg={3}>
           <Card sx={{ maxWidth: 300 }}>
             <Link to="">
               <CardActionArea>
@@ -95,7 +93,7 @@ function FlagCards() {
           </Card>
         </Grid>
 
-        <Grid item xs={12} md={6} lg={4}>
+        <Grid item xs={12} s={6} md={4} lg={3}>
           <Card sx={{ maxWidth: 300 }}>
             <Link to="">
               <CardActionArea>
@@ -111,7 +109,7 @@ function FlagCards() {
           </Card>
         </Grid>
 
-        <Grid item xs={12} md={6} lg={4}>
+        <Grid item xs={12} s={6} md={4} lg={3}>
           <Card sx={{ maxWidth: 300 }}>
             <Link to="">
               <CardActionArea>
@@ -127,7 +125,7 @@ function FlagCards() {
           </Card>
         </Grid>
 
-        <Grid item xs={12} md={6} lg={4}>
+        <Grid item xs={12} s={6} md={4} lg={3}>
           <Card sx={{ maxWidth: 300 }}>
             <Link to="">
               <CardActionArea>
@@ -142,24 +140,11 @@ function FlagCards() {
             </Link>
           </Card>
         </Grid>
-        
-        <Grid item xs={12} md={6} lg={4}>
-          <Card sx={{ maxWidth: 300 }}>
-            <Link to="">
-              <CardActionArea>
-                <CardMedia
-                component="img"
-                height="250"
-                image="https://media.istockphoto.com/id/1385827577/photo/russia-glass-heart.jpg?s=612x612&w=0&k=20&c=hYNPiWxHYkEqnoInWSsFFx3gJB5L_Cgr9Dn7oqYNzsI="
-                alt="russian flag"
-                title="русский"
-                />
-              </CardActionArea> 
-            </Link>
-          </Card>
-        </Grid>
 
-    </Grid>
+        
+      </Grid>
+    
+   
   );
 }
 
