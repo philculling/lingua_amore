@@ -21,6 +21,16 @@ function Spanish() {
 
   const [showFlash, setShowFlash] = useState(true);
   const [currentCard, setCurrentCard] = useState(1);
+  const [data] = useState([...spanishData]);
+  const [categoryFilter, setCategoryFilter] = useState('All');
+
+  const filteredData = data.filter(item => {
+    if (categoryFilter === 'All') {
+      return true;
+    } else {
+      return item.category === categoryFilter;
+    }
+  });
 
   const handleFlashClick = () => {
     setShowFlash(true);
@@ -28,6 +38,10 @@ function Spanish() {
 
   const handleQuizClick = () => {
     setShowFlash(false);
+  };
+
+  const handleCategoryClick = (category) => {
+    setCategoryFilter(category);
   };
 
   function play() {
@@ -63,7 +77,6 @@ function Spanish() {
       <PageSubTitle subtitle="Spanish Quiz"/>
       <PageSubTitle subtitle="Colores"/>
       <Container sx={{display: "flex", flexDirection: 'column', justifyContent: "center", alignItems: "center"}}>
-        <Button color="secondary" variant="contained" size="large" onClick={play}>Play Spanish word</Button>
         <Box sx={{display: "flex", justifyContent: "space-around", alignItems: "center"}}>
           <Button color="secondary"   sx={{margin: "10px"}}onClick={handleQuizClick} variant="contained" size="large">Quiz</Button>
           <Button color="secondary" onClick={handleFlashClick} variant="contained" size="large">Flashcards</Button>
@@ -71,10 +84,20 @@ function Spanish() {
         
         {showFlash ? (
           <Box>
-          <FlashcardArray 
-            cards={spanishData}
-            onCardChange={handleCardChange}
-          />
+            <Box sx={{display: "flex", justifyContent: "center", alignItems: "center"}}>
+              <Button onClick={() => handleCategoryClick('All')}>All</Button>
+              <Button onClick={() => handleCategoryClick('colours')}>Colours</Button>
+              <Button onClick={() => handleCategoryClick('nature')}>Nature</Button>
+              <Button onClick={() => handleCategoryClick('household_items')}>Household Items</Button>
+            </Box>
+            <Box>
+              <FlashcardArray 
+                cards={filteredData} 
+                onCardChange={handleCardChange}/>
+            </Box>
+            <Box sx={{display: "flex", justifyContent: "center", alignItems: "center"}}>
+            <Button variant="contained" color="secondary" onClick={play}>Play Sound</Button>
+            </Box>
           </Box>
         ) : (
           <Box>
