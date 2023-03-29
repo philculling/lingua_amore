@@ -2,56 +2,56 @@
     {
       "id": 1,
       "category": "colours",
-      "front": "rouge",
+      "front": "rojo",
       "back": "red"
     },
     {
         "id": 2,
         "category": "colours",
         "back": "orange",
-        "front": "orange"
+        "front": "anaranjado"
       },
       {
         "id": 3,
         "category": "colours",
         "back": "yellow",
-        "front": "jaune"
+        "front": "amarillo"
         },
       {
         "id": 4,
         "category": "colours",
         "back": "green",
-        "front": "vert"
+        "front": "verde"
         },
       {
         "id": 5,
         "category": "colours",
         "back": "blue",
-        "front": "bleu"
+        "front": "azul"
         },
       {
         "id": 6,
         "category": "colours",
         "back": "white",
-        "front": "blanc"
+        "front": "blanco"
         },
       {
         "id": 7,
         "category": "colours",
         "back": "black",
-        "front": "noir"
+        "front": "negro"
         },
       {
         "id": 8,
         "category": "colours",
         "back": "brown",
-        "front": "brun"
+        "front": "marron"
         },
       {
         "id": 9,
         "category": "colours",
         "back": "pink",
-        "front": "rose"
+        "front": "rosado"
         },
       {
         "id": 10,
@@ -63,12 +63,12 @@
           "id": 11,
           "category": "nature",
           "back": "tree",
-          "front": "arbre"
+          "front": "arbol"
         },
           {
           "id": 12,
           "category": "household_items",
-          "back": "canapé",
-          "front": "sofa"
+          "back": "chair",
+          "front": "silla"
           }
 ]
