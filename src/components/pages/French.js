@@ -6,16 +6,16 @@ import PageSubTitle from "../PageSubTitle";
 import { FlashcardArray } from "react-quizlet-flashcard";
 import frenchData from '../French.json'
 import { Box, Button, Container } from "@mui/material";
-import Rouge from '../../sounds/Rouge.mp3';
-import Gris from '../../sounds/Gris.mp3';
-import Jaune from '../../sounds/Jaune.mp3';
-import Noir from '../../sounds/Noir.mp3';
-import Orange from '../../sounds/Orange.mp3';
-import Rose from '../../sounds/Rose.mp3';
-import Vert from '../../sounds/Vert.mp3';
-import Bleu from '../../sounds/Bleu.mp3';
-import Blanc from '../../sounds/Blanc.mp3';
-import Brun from '../../sounds/Brun.mp3';
+import Rouge from '../../sounds/Frenchsounds/Rouge.mp3';
+import Gris from '../../sounds/Frenchsounds/Gris.mp3';
+import Jaune from '../../sounds/Frenchsounds/Jaune.mp3';
+import Noir from '../../sounds/Frenchsounds/Noir.mp3';
+import Orange from '../../sounds/Frenchsounds/Orange.mp3';
+import Rose from '../../sounds/Frenchsounds/Rose.mp3';
+import Vert from '../../sounds/Frenchsounds/Vert.mp3';
+import Bleu from '../../sounds/Frenchsounds/Bleu.mp3';
+import Blanc from '../../sounds/Frenchsounds/Blanc.mp3';
+import Brun from '../../sounds/Frenchsounds/Brun.mp3';
 
 function French() {
 
