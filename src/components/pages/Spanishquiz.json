@@ -1,6 +1,6 @@
 {
     "quizTitle": "Spanish colours",
-    "nrOfQuestions": "1",
+    "nrOfQuestions": "10",
     "questions": [
       {
         "question": "What is the Spanish for yellow?",
@@ -16,6 +16,141 @@
         "messageForCorrectAnswer": "Correct answer. Good job.",
         "messageForIncorrectAnswer": "Incorrect answer. Please try again.",
         "point": "1"
-      }
-    ]
+      },
+      {
+        "question": "What is the Spanish for orange?",
+        "questionType": "text",
+        "answerSelectionType": "single",
+        "answers": [
+          "azul",
+          "rojo",
+          "anaranjado",
+          "amarillo"
+        ],
+        "correctAnswer": "3",
+        "messageForCorrectAnswer": "Correct answer. Good job.",
+        "messageForIncorrectAnswer": "Incorrect answer. Please try again.",
+        "point": "1"
+      },
+      {
+        "question": "What is the Spanish for black?",
+        "questionType": "text",
+        "answerSelectionType": "single",
+        "answers": [
+          "gris",
+          "rosado",
+          "marron",
+          "negro"
+        ],
+        "correctAnswer": "4",
+        "messageForCorrectAnswer": "Correct answer. Good job.",
+        "messageForIncorrectAnswer": "Incorrect answer. Please try again.",
+        "point": "1"
+      },
+      {
+        "question": "What is the Spanish for blue?",
+        "questionType": "text",
+        "answerSelectionType": "single",
+        "answers": [
+          "verde",
+          "azul",
+          "blanco",
+          "anaranjado"
+        ],
+        "correctAnswer": "2",
+        "messageForCorrectAnswer": "Correct answer. Good job.",
+        "messageForIncorrectAnswer": "Incorrect answer. Please try again.",
+        "point": "1"
+      },
+      {
+        "question": "What is the Spanish for white?",
+        "questionType": "text",
+        "answerSelectionType": "single",
+        "answers": [
+          "rosado",
+          "azul",
+          "blanco",
+          "verde"
+        ],
+        "correctAnswer": "3",
+        "messageForCorrectAnswer": "Correct answer. Good job.",
+        "messageForIncorrectAnswer": "Incorrect answer. Please try again.",
+        "point": "1"
+      },
+      {
+        "question": "What is the Spanish for grey?",
+        "questionType": "text",
+        "answerSelectionType": "single",
+        "answers": [
+          "azul",
+          "gris",
+          "rojo",
+          "blanco"
+        ],
+        "correctAnswer": "2",
+        "messageForCorrectAnswer": "Correct answer. Good job.",
+        "messageForIncorrectAnswer": "Incorrect answer. Please try again.",
+        "point": "1"
+      },
+      {
+        "question": "What is the Spanish for red?",
+        "questionType": "text",
+        "answerSelectionType": "single",
+        "answers": [
+          "verde",
+          "amarillo",
+          "negro",
+          "rojo"
+        ],
+        "correctAnswer": "4",
+        "messageForCorrectAnswer": "Correct answer. Good job.",
+        "messageForIncorrectAnswer": "Incorrect answer. Please try again.",
+        "point": "1"
+      },
+      {
+        "question": "What is the Spanish for brown?",
+        "questionType": "text",
+        "answerSelectionType": "single",
+        "answers": [
+          "marron",
+          "azul",
+          "amarillo",
+          "verde"
+        ],
+        "correctAnswer": "1",
+        "messageForCorrectAnswer": "Correct answer. Good job.",
+        "messageForIncorrectAnswer": "Incorrect answer. Please try again.",
+        "point": "1"
+      },
+      {
+        "question": "What is the Spanish for pink?",
+        "questionType": "text",
+        "answerSelectionType": "single",
+        "answers": [
+          "rojo",
+          "verde",
+          "rosado",
+          "negro"
+        ],
+        "correctAnswer": "3",
+        "messageForCorrectAnswer": "Correct answer. Good job.",
+        "messageForIncorrectAnswer": "Incorrect answer. Please try again.",
+        "point": "1"
+      },
+      {
+        "question": "What is the Spanish for green?",
+        "questionType": "text",
+        "answerSelectionType": "single",
+        "answers": [
+          "negro",
+          "rosado",
+          "rojo",
+          "verde"
+        ],
+        "correctAnswer": "4",
+        "messageForCorrectAnswer": "Correct answer. Good job.",
+        "messageForIncorrectAnswer": "Incorrect answer. Please try again.",
+        "point": "1"
+      } 
+   ]
   }
