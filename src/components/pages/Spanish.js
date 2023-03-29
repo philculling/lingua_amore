@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import spanishData from '../Spanish.json'
 import Quiz from 'react-quiz-component';
-import quiz from './Spanishquiz.json';
+import quiz from '../Spanishquiz.json';
 import { FlashcardArray } from "react-quizlet-flashcard";
 import Rojo from '../../sounds/Spanishsounds/Rojo.mp3';
 import Gris from '../../sounds/Frenchsounds/Gris.mp3';

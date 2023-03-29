@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Quiz from 'react-quiz-component';
-import quiz from './Italianquiz.json';
+import quiz from '../Italianquiz.json';
 import PageTitle from "../PageTitle";
 import { FlashcardArray } from "react-quizlet-flashcard";
 import italianData from '../Italian.json'
@@ -9,11 +9,14 @@ import Arancione from '../../sounds/Italiansounds/Arancione.mp3';
 import Rosso from '../../sounds/Italiansounds/Rosso.mp3';
 
 function Italian() {
-
+  //setting state values
   const [showFlash, setShowFlash] = useState(true);
   const [data] = useState([...italianData]);
   const [categoryFilter, setCategoryFilter] = useState('All');
+  const [currentCard, setCurrentCard] = useState(1);
 
+
+  //function to filter json data by category
   const filteredData = data.filter(item => {
     if (categoryFilter === 'All') {
       return true;
@@ -22,20 +25,22 @@ function Italian() {
     }
   });
 
+  //function to determine when the flashcards show up
   const handleFlashClick = () => {
     setShowFlash(true);
   };
 
+  //function to determine when the quiz shows up
   const handleQuizClick = () => {
     setShowFlash(false);
   };
 
+  //function to determine which category was selected
   const handleCategoryClick = (category) => {
     setCategoryFilter(category);
   };
 
-  const [currentCard, setCurrentCard] = useState(1);
-
+  //function to play audio clips depending on current card index
   function play() {
     if (currentCard === 1) {
     new Audio(Rosso).play()}
@@ -43,10 +48,11 @@ function Italian() {
       new Audio(Arancione).play()}
     }
 
+    //function to update card index
     const handleCardChange = (index) => {
       setCurrentCard(index);
-
     };
+
   return (
     <Container sx={{padding: "20px", display: "flex", flexDirection: 'column', justifyContent: "center", alignItems: "center"}}>
       <PageTitle title="Italian"/>
@@ -79,7 +85,7 @@ function Italian() {
           </Box>
           )}
       </Container>
-      </Container>
+    </Container>
   );
 }
 
