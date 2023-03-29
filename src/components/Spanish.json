@@ -1,0 +1,81 @@
+[
+    {
+      "id": 1,
+      "category": "colours",
+      "front": "rouge",
+      "back": "red",
+      "picture": "https://uk.search.yahoo.com/search?fr=mcafee&type=E211GB384G0&p=picture+of+full+screen+red"
+    },
+    {
+        "id": 2,
+        "category": "colours",
+        "back": "orange",
+        "front": "orange"
+      },
+      {
+        "id": 3,
+        "category": "colours",
+        "back": "yellow",
+        "front": "jaune"
+        },
+      {
+        "id": 4,
+        "category": "colours",
+        "back": "green",
+        "front": "vert"
+        },
+      {
+        "id": 5,
+        "category": "colours",
+        "back": "blue",
+        "front": "bleu"
+        },
+      {
+        "id": 6,
+        "category": "colours",
+        "back": "white",
+        "front": "blanc"
+        },
+      {
+        "id": 7,
+        "category": "colours",
+        "back": "black",
+        "front": "noir"
+        },
+      {
+        "id": 8,
+        "category": "colours",
+        "back": "brown",
+        "front": "brun"
+        },
+      {
+        "id": 9,
+        "category": "colours",
+        "back": "pink",
+        "front": "rose"
+        },
+      {
+        "id": 10,
+        "category": "colours",
+        "back": "grey",
+        "front": "gris",
+        "englishwav": "",
+        "frenchwav": ""
+        },
+        {
+          "id": 11,
+          "category": "nature",
+          "back": "tree",
+          "front": "arbre",
+          "englishwav": "",
+          "frenchwav": ""
+        },
+          {
+          "id": 12,
+          "category": "household_items",
+          "back": "canapé",
+          "front": "sofa",
+          "englishwav": "",
+          "frenchwav": ""
+          }
+]
