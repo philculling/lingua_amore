@@ -98,7 +98,6 @@ function French() {
        </Box>
         ) : (
           <Box>
-            <h2>French Quiz</h2>
             <Quiz quiz={quiz}/>
           </Box>
         )}
