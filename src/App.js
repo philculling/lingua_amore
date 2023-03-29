@@ -42,7 +42,7 @@ const theme = createTheme({
         },
         body1: {
           fontWeight: 500,
-          fontSize: "1rem",
+          fontSize: "3rem",
           paddingTop: "40px",
           marginLeft: "20px"
       }

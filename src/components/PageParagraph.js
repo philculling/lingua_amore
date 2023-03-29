@@ -3,7 +3,7 @@ import { Typography } from "@mui/material";
 
 const PageParagraph = ({p}) => {
   return (
-    <Typography variant="body1">{p}</Typography>
+    <Typography variant="h4">{p}</Typography>
   )
 }
 
