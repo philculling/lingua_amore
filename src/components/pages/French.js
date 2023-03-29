@@ -32,7 +32,6 @@ function French() {
     }
   });
 
-
   const handleFlashClick = () => {
     setShowFlash(true);
   };
