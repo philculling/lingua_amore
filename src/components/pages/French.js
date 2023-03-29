@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Quiz from 'react-quiz-component';
-import quiz from './Quiz';
+import quiz from './Frenchquiz';
 import PageTitle from "../PageTitle";
 import PageSubTitle from "../PageSubTitle";
 import { FlashcardArray } from "react-quizlet-flashcard";
