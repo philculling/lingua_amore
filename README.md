@@ -29,7 +29,7 @@ n/a
 - The user can play an audio clip of the word in the target language.
 - The user can choose at any point to take part in the quiz. The quiz generates questions in a multiple choice format. Once completed, scores are displayed and the user is able to look through correct and incorrect answers to assist their learning.
 
-The site is published at https://philculling.github.io/lingua_amore
+The site is published at https://beamish-sprite-6f8b41.netlify.app
 
 Screenshots:
 ![Screenshot](./src/components/Images/ScreenshotHome.png "Screenshot of home page")
